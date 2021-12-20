@@ -2,6 +2,7 @@
 background-color: whitesmoke;
 text-align: center;
 padding: 20px;
+
 }
 
 .page {
@@ -14,8 +15,7 @@ padding: 20px;
    color: white;
    align-items: center;
    justify-content: center;
-   text-shadow: snow;
+   padding: 1px;
    
-
-    
+   
 }
