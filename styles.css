@@ -8,7 +8,14 @@ padding: 20px;
     background-color: thistle;
 }
 
-h2 {
+.box {
+   display: flex;
+   background-color:slategrey;
+   color: white;
+   align-items: center;
+   justify-content: center;
+   text-shadow: snow;
    
+
     
 }
