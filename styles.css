@@ -1,5 +1,9 @@
 /*disigning the top part of the page*/
+html, body {
+    width: auto;
+    height: auto;
 
+}
 .topcontainer {
 display:flex ;
 background-image:url("images/coins.jpg");
@@ -14,7 +18,7 @@ gap: 30px;
 
 hr{                 /* line porperties*/
     color: white;
-    width: 100%;
+    width: 100%;    /* this solves the problem of the line leaving the flexbox*/
     
 }
 .title {
@@ -37,13 +41,21 @@ hr{                 /* line porperties*/
     align-items: center;
     justify-content: space-between;
     height: 39px;
-    background-color: black;
-    padding: 0px 15px 0px 15px;
-    
-    
-
+    background-color:black;
+    padding: 0px 15px 0px 15px;  
 }
+
 .left{
     display: flex;
     gap: 15px;
+}
+/* Styling my lingks*/
+a:link {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    text-emphasis: bold;
+}
+a:hover{
+    color:grey;
 }
